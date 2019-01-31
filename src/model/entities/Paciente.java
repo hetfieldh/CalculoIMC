@@ -8,14 +8,11 @@ public abstract class Paciente {
 		this.sexo = sexo;
 	}
 
-	public void setSexo(Character sexo) {
-		this.sexo = sexo;
-	}
-
 	public Character getSexo() {
 		return sexo;
 	}
 
-	public abstract String calculoIMC();
+	public abstract Double calculoIMC();
+	public abstract String resultado();
 
 }
